@@ -26,6 +26,7 @@ mongoose.connect(dbConfig.url, {
 //default
 app.get('/', (req, res) => {
     //do something
+    res.send('connected')
 });
 
 // Require event routes
